@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+
+    <!-- Need to get a proper redirect hooked up. Blech. -->
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+    <title>jQuery Mobile</title>
+    <link rel="stylesheet" type="text/css" href="css/themes/default/jquery.mobile-1.3.1.css">
+    <link rel="stylesheet" type="text/css" href="css/styling.css">
+    <script type="text/javascript" src="cordova-2.7.0.js"></script>
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="js/jquery.mobile-1.3.1.min.js"></script>
+    <script>
+		$( document ).on( "pageshow", function(){
+			$( "p.message" ).hide().delay( 1500 ).show( "fast" );
+		});
+	</script>
+</head>
+<body>
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMinYMin" width="38px" viewBox="0 0 169.883 299.881" style="enable-background:new 0 0 169.883 299.881;" xml:space="preserve" class="logo_icon_tag">
+    <rect y="-0.001" style="fill:#DE0000;" width="170" height="300"/><g>
+        <path style="fill:#FFFFFF;" d="M62.26,208.996c-4.149-2.57-6.197-4.101-10.727-6.75c-8.367,15.127-13.021,37.669-0.983,54.804 c5.79-9.961,8.009-13.87,12.296-21.501C56.791,229.761,57.342,216.622,62.26,208.996"/>
+        <path style="fill:#FFFFFF;" d="M64.801,237.183c-3.771,6.745-7.068,12.313-12.597,21.674 c15.334,18.612,47.748,11.317,65.446-17.001c-11.748-7.08-14.493-8.82-24.714-14.664C81.301,241.993,70.668,241.246,64.801,237.183"/>
+        <path style="fill:#FFFFFF;" d="M63.585,206.263c-4.375-2.504-6.336-3.467-10.683-5.849c8.606-14.226,25.727-30.064,46.581-28.212 c-5.815,10.221-6.539,11.294-12.476,21.464C78.484,191.306,67.922,198.552,63.585,206.263"/>
+        <path style="fill:#FFFFFF;" d="M89.389,194.527c3.957-6.643,7.215-12.404,12.533-21.841c22.32,4.381,34.611,33.909,18.081,65.119 c-12.271-6.776-15.542-8.613-25.368-14.07C102.492,206.129,94.718,196.534,89.389,194.527"/></g>
+</svg>
+<div data-role="page" id="one" class="main">
+	    <div data-role="header" data-position="inline">
+    	<a href="#settings" class="setup" data-transition="slide"></a>
+		<h2>UserSummit</h2>
+	</div><!-- /header -->
+    <div data-role="content" id="m_nav" >	
+		<ul>
+        
+        </ul>
+	</div><!-- /content -->
+</div><!-- /page -->
+<div data-role="page" id="two" class="sub">
+	<div data-role="header" data-position="inline">
+    	<a href="#one" data-icon="home" data-iconpos="notext" data-direction="reverse" class="ui-btn-left jqm-home" data-transition="slide">Home</a>
+		<h2>My Schedule</h2>
+	</div><!-- /header -->
+    <div data-role="content" >	
+		
+	</div><!-- /content -->
+</div><!-- /page -->
+<div data-role="page" id="settings" class="sub">
+    <div data-role="header" data-position="inline">
+        <a href="#one" data-icon="home" data-iconpos="notext" data-direction="reverse" class="ui-btn-left jqm-home" data-transition="slide">Home</a>
+        <h2>Settings</h2>
+    </div><!-- /header -->
+    <div data-role="content" >
+            
+    </div><!-- /content -->
+</div><!-- /Setting page -->
+</body>
+</html>

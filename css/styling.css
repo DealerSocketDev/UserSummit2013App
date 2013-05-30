@@ -1,0 +1,68 @@
+@charset "UTF-8";
+/* UserSummit App general styling */
+
+/*-------------Home Page and Navigation-------------
+--------------------------------------------------*/
+
+.mobi_logo {
+	width: 35%;
+	display: block;
+	margin: 0 auto;
+}
+
+div.main {
+	background-color: #141414;	
+}
+
+div.hn_left {
+	float: left;
+	clear: left;
+	width: 55%;
+	max-width: 319px;
+	max-height: 336px;
+	margin: 0;
+	border-bottom: solid 1px #666;
+	background-color: #141414;	
+}
+
+div.hn_right {
+	float: left;
+	width: 55%;
+	max-width: 319px;
+	max-height: 336px;
+	margin: 0;
+	border-bottom: solid 1px #666;
+	border-left: solid 1px #666;
+	background-color: #141414;
+}
+
+div#m_nav.ui-content {
+	padding: 0;	
+}
+
+.ui-header {
+	height: 45px;	
+}
+
+.logo_icon_tag {
+	float: right;
+	position: relative;
+	top: 0;
+	z-index: 100;	
+}
+
+a.setup {
+	width: 36px;
+	height: 36px;
+	background: url('themes/default/images/icons-36-white.svg') no-repeat center;	
+	border: none;
+	box-shadow: none !important;
+	border-radius: none !important;
+}
+
+span.ui-btn-inner {
+	display: none;	
+}
+
+
+
